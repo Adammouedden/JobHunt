@@ -3,8 +3,8 @@ import re
 import csv
 
 #Google API and custom search engine setup
-API_KEY = 'AIzaSyAs7w2Q-cSEVtVZMdOu52-v46IHUlwFrY0'
-CX = '85342cd3fb7954431'
+API_KEY = ''
+CX = ''
 
 # Google Custom Search API endpoint
 BASE_URL = "https://www.googleapis.com/customsearch/v1"
