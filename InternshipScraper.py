@@ -4,7 +4,7 @@ import csv
 
 #Google API and custom search engine setup
 API_KEY = ''
-CX = ''
+CUSTOM_SEARCH_ENGINE_ID = ''
 
 # Google Custom Search API endpoint
 BASE_URL = "https://www.googleapis.com/customsearch/v1"
@@ -12,7 +12,7 @@ BASE_URL = "https://www.googleapis.com/customsearch/v1"
 def fetch_urls(query, start_index = 1):
     params = {
         'key': API_KEY,
-        'cx': CX,
+        'cx': CUSTOM_SEARCH_ENGINE_ID,
         'q': query,
         'start': start_index,
     }
