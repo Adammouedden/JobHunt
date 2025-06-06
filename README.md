@@ -16,7 +16,3 @@ https://programmablesearchengine.google.com/about/
 7. Select the name of your Custom Search API Project.
 
 8. Edit the python file with your API key and Custom Search Engine ID.
-
-
-DOESNT WORK
-TRASH
